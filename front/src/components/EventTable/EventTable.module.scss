@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  width: 100%;
+  overflow: scroll;
+  flex-direction: column;
+}
+
+.row {
+  flex-grow: 1;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid grey;
+}

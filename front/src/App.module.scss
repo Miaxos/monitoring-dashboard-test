@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.body {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.root {
+  height: 100%;
+}

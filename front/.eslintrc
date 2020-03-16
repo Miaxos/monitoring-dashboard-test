@@ -1,0 +1,25 @@
+{
+ "parser": "@typescript-eslint/parser",
+  "extends": [
+    "@iadvize-oss/eslint-config",
+    "@iadvize-oss/eslint-config-jest",
+    "@iadvize-oss/eslint-config-redux-saga",
+    "@iadvize-oss/eslint-config-storybook"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "**/*.test.js",
+      ],
+      "env": {
+        "mocha": true
+      },
+      "globals": {
+        "assert": true,
+        "sinon": true,
+        "expect": true,
+        "settings": true
+      }
+    }
+  ]
+}

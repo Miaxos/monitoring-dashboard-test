@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`domains/Alerting/reducer should add an alert event 1`] = `
+Object {
+  "__OPAQUE_KEY__": "ALERTING_STATE",
+  "__OPAQUE__": "__OPAQUE__",
+  "value": Object {
+    "alertingEvents": Array [
+      Object {
+        "__OPAQUE_KEY__": "CPU_ALERT",
+        "__OPAQUE__": "__OPAQUE__",
+        "value": Object {
+          "date": 2020-03-01T22:24:32.500Z,
+          "type": "CPU_ALERT",
+        },
+      },
+    ],
+    "startedTime": 2019-05-14T11:01:58.135Z,
+  },
+}
+`;
+
+exports[`domains/Alerting/reducer should add an recover event 1`] = `
+Object {
+  "__OPAQUE_KEY__": "ALERTING_STATE",
+  "__OPAQUE__": "__OPAQUE__",
+  "value": Object {
+    "alertingEvents": Array [
+      Object {
+        "__OPAQUE_KEY__": "CPU_ALERT",
+        "__OPAQUE__": "__OPAQUE__",
+        "value": Object {
+          "date": 2020-03-01T22:24:32.500Z,
+          "type": "CPU_RECOVER",
+        },
+      },
+    ],
+    "startedTime": 2019-05-14T11:01:58.135Z,
+  },
+}
+`;

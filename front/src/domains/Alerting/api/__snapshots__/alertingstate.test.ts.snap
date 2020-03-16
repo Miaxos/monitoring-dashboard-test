@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`domains/Alerting/api/alertingstate should return a good projection of the status when we have alerts 1`] = `
+Object {
+  "date": Object {
+    "_tag": "Some",
+    "value": 2020-03-01T22:24:32.500Z,
+  },
+  "status": "ALERT",
+}
+`;
